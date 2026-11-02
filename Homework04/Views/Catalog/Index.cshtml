@@ -1,0 +1,2 @@
+@model List<string>
+<h1>Каталог</h1><form method="post" action="/Catalog/Add"><input name="name" required placeholder="Название" /><button>Добавить</button></form><ul>@foreach(var item in Model){<li>@item</li>}</ul>
